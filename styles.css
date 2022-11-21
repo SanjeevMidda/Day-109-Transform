@@ -1,0 +1,24 @@
+.circle{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    transition: border-radius 1s, background 1s;
+}
+
+.circle:hover{
+    border-radius: 50%;
+    background: linear-gradient(pink,yellow);
+}
+
+.square{
+    width:200px;
+    height:200px;
+    background-color: pink;
+    transition: border-radius 0.5s, width 2s, height 2s;
+}
+
+.square:hover{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+}
